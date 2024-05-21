@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Matemático</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="mathjax-config.js"></script>
 </head>
 <body>
-    <h1>Document</h1>
+    <nav>
+        <div class="logo">Blog Matemático</div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Artículos</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <main>
+        <article>
+            <h1>Bienvenidos a mi blog</h1>
+            <p>Este es un blog dedicado a las matemáticas donde podrás encontrar artículos, videos y más.</p>
+            <p>A continuación se muestra un ejemplo de una fórmula matemática:</p>
+            <p>\[\int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}\]</p>
+        </article>
+        <section>
+            <h2>Últimos Artículos</h2>
+            <div class="article">
+                <h3>Artículo 1</h3>
+                <p>Descripción del artículo 1...</p>
+            </div>
+            <div class="article">
+                <h3>Artículo 2</h3>
+                <p>Descripción del artículo 2...</p>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
